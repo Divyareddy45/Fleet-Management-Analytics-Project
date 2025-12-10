@@ -34,34 +34,28 @@ The project is structured into three phases:
 
    • Initial exploration and profiling
 
-🧪 Phase 1 — Python (ETL & Data Analysis)
-1. Import and Explore Data
-
-• Load vehicle dataset using pandas
-• Initial exploration and profiling
-
 2. Data Cleaning & Transformation
 
-• Handle missing values and duplicates
-• Fix incorrect data types
-• Validate numerical ranges
-• Create calculated fields:
-    • vehicle_age
-    • cost_per_km
-    • monthly_mileage
-    • efficiency_category (High / Medium / Low)
+   • Handle missing values and duplicates
+   • Fix incorrect data types
+   • Validate numerical ranges
+   • Create calculated fields:
+      • vehicle_age
+      • cost_per_km
+      • monthly_mileage
+      • efficiency_category (High / Medium / Low)
 
 3. Data Analysis
 
-• Performance by vehicle make and model
-• Relationship between age and fuel efficiency
-• Maintenance cost trends by vehicle type
-• Driver performance impact
+   • Performance by vehicle make and model
+   • Relationship between age and fuel efficiency
+   • Maintenance cost trends by vehicle type
+   • Driver performance impact
 
 4. Data Export
 
-• Clean dataset exported for SQL
-• Summary statistics saved for reporting
+   • Clean dataset exported for SQL
+   • Summary statistics saved for reporting
 ________________________________________
  
 
