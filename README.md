@@ -9,11 +9,11 @@ The goal is to extract meaningful insights around vehicle efficiency, maintenanc
 
 This project delivers a comprehensive analysis of vehicle fleet data by progressing through three major phases:
 
-            1.Python (ETL & Data Preparation) – cleaning, transforming, and analyzing raw fleet data
+1.Python (ETL & Data Preparation) – cleaning, transforming, and analyzing raw fleet data
             
-            2.SQL (Advanced Analytics) – running performance, cost, and maintenance analytics
+2.SQL (Advanced Analytics) – running performance, cost, and maintenance analytics
             
-            3.Power BI (Dashboard Reporting) – building insights and executive summaries
+3.Power BI (Dashboard Reporting) – building insights and executive summaries
 ________________________________________
 
 **🛠️ Tools & Technologies**
@@ -84,9 +84,10 @@ ________________________________________
 **Dashboard Pages**
 
 **1. Executive Summary Page**
-   .KPI Cards: Total Vehicles, Average Efficiency, Total Mileage, Avg Maintenance Cost
-   .Vehicle distribution by type and make
-   .Age distribution chart
+   KPI Cards: Total Vehicles, Average Efficiency, Total Mileage, Avg Maintenance Cost
+   Vehicle distribution by type and make
+   Age distribution chart
+   
    <img width="1210" height="745" alt="Fleet manamgement power bi1" src="https://github.com/user-attachments/assets/62e7458c-f676-4d97-9392-05dc95532678" />
 
 ________________________________________
