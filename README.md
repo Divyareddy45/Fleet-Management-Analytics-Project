@@ -44,11 +44,8 @@ The project is structured into three phases:
    
    • Create calculated fields:
       • vehicle_age
-      
       • cost_per_km
-      
       • monthly_mileage
-      
       • efficiency_category (High / Medium / Low)
 
 **4. Data Analysis**
@@ -97,7 +94,7 @@ Analytical Queries
    
    • Cost-to-mileage ratio comparison
 
-Comparative Analysis
+**Comparative Analysis**
 
   • New vs old vehicle performance
   
@@ -107,7 +104,7 @@ Comparative Analysis
 ________________________________________
  
 **📊 Phase 3 — Power BI Dashboard**
-1. Executive Summary
+**1. Executive Summary**
 
   • KPIs: Total Vehicles, Avg Fuel Efficiency, Total Mileage, Avg Maintenance Cost
   
@@ -115,21 +112,7 @@ ________________________________________
   
   • Age distribution chart
 
-2. Performance Analysis
-
-• Scatter chart: Age vs Efficiency
-• Bar chart: Avg Efficiency by Make
-• Line chart: Maintenance Cost vs Mileage
-• Heat map: Performance Score Distribution
-
-3. Cost Analysis
-
-• Maintenance cost by vehicle type
-• Cost-per-km insights
-• Driver performance impact
-• Age vs maintenance cost trend
-
-3. Performance Analysis
+**2. Performance Analysis**
 
       • Scatter chart: Age vs Efficiency
 
@@ -139,7 +122,7 @@ ________________________________________
 
       • Heat map: Performance Score Distribution
 
-5. Cost Analysis
+**3. Cost Analysis**
 
     • Maintenance cost by vehicle type
 
