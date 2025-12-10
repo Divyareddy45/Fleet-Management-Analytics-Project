@@ -5,196 +5,108 @@ ________________________________________
 
 **📌 Project Overview**
 
-The objective of this project is to extract meaningful insights about:
+The goal of this project is to extract meaningful insights related to:
+    • Vehicle efficiency and fuel performance
+    • Maintenance cost patterns
+    • Vehicle age vs. performance trends
+    • Driver performance impact
 
-Vehicle efficiency
+The project is structured into three phases:
 
-Maintenance cost trends
+   • Python ETL & data preparation
+   • SQL-based performance and cost analytics
+   • Power BI dashboard visualization
+ ________________________________________
 
-Driver performance
+**🛠️ Tools & Technologies**
 
-Overall fleet operational health
-
-The project is divided into three major phases:
-
-Python (ETL & Data Preparation) – cleaning, transforming, and analyzing raw fleet data
-
-SQL (Advanced Analytics) – performing performance, cost, and maintenance analytics
-
-Power BI (Dashboard Reporting) – building interactive dashboards and executive summaries
-
-________________________________________
-
-
-🛠️ Tools & Technologies
-
-Python: pandas, NumPy, matplotlib, seaborn
-
-SQL: MySQL Workbench for analytical queries
-
-Power BI: Interactive dashboards and KPI visuals
-
-________________________________________
-
-
+• Python (pandas, NumPy, matplotlib, seaborn)
+• SQL – MySQL Workbench
+• Power BI – Interactive dashboards & KPIs
+ ________________________________________
+ 
 **🧪 Phase 1 — Python (ETL & Data Analysis)**
 1. Import and Explore Data
-
-Load vehicle dataset using pandas
-
-Perform initial exploration and profiling
+       • Load vehicle dataset using pandas
+       • Initial exploration and profiling
 
 2. Data Cleaning & Transformation
-
-Handle missing values and duplicates
-
-Correct data types and validate value ranges
-
-Create calculated columns:
-
-vehicle_age (from purchase year/date)
-
-cost_per_km = annual_maintenance_cost / current_mileage_km
-
-monthly_mileage = current_mileage_km / vehicle_age_months
-
-efficiency_category (High / Medium / Low based on fuel efficiency)
+       • Handle missing values and duplicates
+       • Fix incorrect data types
+       • Validate numerical ranges
+       • Create calculated fields:
+       • vehicle_age
+       • cost_per_km
+       • monthly_mileage
+       • efficiency_category (High / Medium / Low)
 
 3. Data Analysis
-
-Performance comparison by vehicle make and model
-
-Age vs fuel efficiency relationship
-
-Maintenance cost trends by vehicle type
-
-Impact of driver performance on cost and efficiency
+      • Performance by vehicle make and model
+      • Relationship between age and fuel efficiency
+      • Maintenance cost trends by vehicle type
+      • Driver performance impact
 
 4. Data Export
-
-Clean dataset exported for SQL processing
-
-Summary statistics generated for reporting
-
-________________________________________
-
-
+   • Clean dataset exported for SQL
+   • Summary statistics saved for reporting
+   
+ ________________________________________
 **🗄️ Phase 2 — SQL (Vehicle Performance Analytics)**
-📂 Database Setup
+Database Setup
+    • Create Vehicle Performance database
+    • Import cleaned dataset
 
-Create a Vehicle Performance database
-
-Import the cleaned dataset into SQL tables
-
- Analytical Queries
+Analytical Queries
 
 Basic Queries
-
-Total mileage & average efficiency by make
-
-Maintenance cost by vehicle type and age
-
-Identify top-performing vehicles (fuel efficiency)
+     • Total mileage & average efficiency per make
+     • Maintenance cost by vehicle type and age
+     • Identify top-performing vehicles
 
 Advanced Queries (CTEs + Window Functions)
-
-Ranking vehicles within each make
-
-Moving averages for maintenance cost
-
-Identify above/below average performers
-
-Analyze efficiency degradation with age
-
-Compare cost-to-mileage ratios
+     • Ranking vehicles by efficiency
+     • Moving average of maintenance cost
+     • Above/below average performance detection
+     • Efficiency degradation with age
+     • Cost-to-mileage ratio comparison
 
 Comparative Analysis
-
-New vs old vehicle performance
-
-Vehicle type efficiency analysis
-
-Manufacturer-based maintenance cost patterns
-
+    • New vs old vehicle performance
+    • Vehicle type efficiency comparison
+    • Manufacturer-based maintenance trends
 ________________________________________
-
-
 **📊 Phase 3 — Power BI Dashboard**
-1. Executive Summary Page
+1. Executive Summary
+       • KPIs: Total Vehicles, Avg Fuel Efficiency, Total Mileage, Avg Maintenance Cost
+       • Vehicle distribution by type & make
+       • Age distribution chart
 
-KPIs:
+2. Performance Analysis
 
-Total Vehicles
+      • Scatter chart: Age vs Efficiency
+      • Bar chart: Avg Efficiency by Make
+      • Line chart: Maintenance Cost vs Mileage
+      • Heat map: Performance Score Distribution
 
-Average Fuel Efficiency
+3. Cost Analysis
 
-Total Mileage
-
-Average Maintenance CosT
-
-Visuals:
-
-Vehicle distribution by type & make
-
-Age distribution chart
-
-<img width="1210" height="745" alt="Fleet manamgement power bi1" src="https://github.com/user-attachments/assets/ae18938e-ad47-463b-ae3b-eda27f339131" />
-
-
-2. Performance Analysis Page
-
-Scatter chart: Age vs Efficiency
-
-Bar chart: Avg Efficiency by Make
-
-Line chart: Maintenance Cost vs Mileage
-
-Heat map: Performance Score Distribution
-
-<img width="1202" height="737" alt="Fleet manamgement power bi2" src="https://github.com/user-attachments/assets/d200c035-b18d-450c-a4e2-5ec257391823" />
+    • Maintenance cost by vehicle type
+    • Cost-per-km insights
+    • Driver performance impact
+    • Age vs maintenance cost trend
 
 
-3. Cost Analysis Page
-
-Maintenance cost by type
-
-Cost-per-km analysis
-
-Driver performance impact
-
-Age vs maintenance cost trend
-
-<img width="1200" height="755" alt="Fleet manamgement power bi3" src="https://github.com/user-attachments/assets/32c1bcbb-5128-4a55-bfc8-acc231461b99" />
-
-________________________________________
-
+<img width="1920" height="1080" alt="Screenshot (149)" src="https://github.com/user-attachments/assets/22bad8bb-58eb-41ed-b260-95a4b9968ce6" />
+<img width="1920" height="1080" alt="Screenshot (148)" src="https://github.com/user-attachments/assets/35887c85-30fc-4d2b-93e9-07bc2f5143b8" />
+<img width="1920" height="1080" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/e743b76c-1c9d-46fa-b66a-8d380fe53af0" />
 
 **🎯 Expected Outcome**
 
-A fully cleaned and transformed fleet dataset ready for analysis
-
-Key insights into vehicle performance, fuel efficiency, maintenance costs, and driver impact
-
-SQL-driven analytics identifying top-performing vehicles and efficiency patterns
-
-An interactive Power BI dashboard presenting KPIs, visuals, and cost insights
-
-Complete end-to-end experience in ETL, data analysis, SQL querying, and BI reporting
-
-A fully cleaned and transformed fleet dataset ready for analysis
-
-Key insights into vehicle performance, fuel efficiency, maintenance costs, and driver impact
-
-SQL-driven analytics identifying top-performing vehicles and efficiency patterns
-
-An interactive Power BI dashboard presenting KPIs, visuals, and cost insights
-
-Complete end-to-end experience in ETL, data analysis, SQL querying, and BI reporting
-
-
-
-
-
+• A fully cleaned fleet dataset ready for analysis
+• Clear insights on vehicle performance, efficiency, and cost trends
+• SQL-driven analytics for ranking, comparison, and trend evaluation
+• Interactive Power BI dashboards presenting key metrics and visuals
+• End-to-end experience in ETL, analytics, SQL, and BI reporting
 
 
 
