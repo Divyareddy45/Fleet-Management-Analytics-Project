@@ -21,7 +21,7 @@ The project is structured into three phases:
 
 ---
 
-## 🛠️ Tools & Technologies
+🛠️ Tools & Technologies
 
 &nbsp;&nbsp;&nbsp;&nbsp;• Python (pandas, NumPy, matplotlib, seaborn)  
 &nbsp;&nbsp;&nbsp;&nbsp;• SQL – MySQL Workbench  
@@ -31,19 +31,20 @@ The project is structured into three phases:
 
 # 🧪 Phase 1 — Python (ETL & Data Analysis)
 
-## **1. Import and Explore Data**
+**1. Import and Explore Data**
 
 &nbsp;&nbsp;&nbsp;&nbsp;• Load vehicle dataset using pandas  
 &nbsp;&nbsp;&nbsp;&nbsp;• Initial exploration and profiling  
 
 
 
-## **2. Data Cleaning & Transformation**
+**2. Data Cleaning & Transformation**
 
 &nbsp;&nbsp;&nbsp;&nbsp;• Handle missing values and duplicates  
 &nbsp;&nbsp;&nbsp;&nbsp;• Fix incorrect data types  
 &nbsp;&nbsp;&nbsp;&nbsp;• Validate numerical ranges  
 &nbsp;&nbsp;&nbsp;&nbsp;• Calculated Field
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○ vehicle_age  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○ cost_per_km  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○ monthly_mileage  
@@ -51,7 +52,7 @@ The project is structured into three phases:
 
 
 
-## **3. Data Analysis**
+**3. Data Analysis**
 
 &nbsp;&nbsp;&nbsp;&nbsp;• Performance by vehicle make and model  
 &nbsp;&nbsp;&nbsp;&nbsp;• Relationship between age and fuel efficiency  
@@ -60,7 +61,7 @@ The project is structured into three phases:
 
 
 
-## **4. Data Export**
+**4. Data Export**
 
 &nbsp;&nbsp;&nbsp;&nbsp;• Clean dataset exported for SQL  
 &nbsp;&nbsp;&nbsp;&nbsp;• Summary statistics saved for reporting  
@@ -69,16 +70,16 @@ The project is structured into three phases:
 
 # 🗄️ Phase 2 — SQL (Vehicle Performance Analytics)
 
-## **Database Setup**
+**Database Setup**
 
 &nbsp;&nbsp;&nbsp;&nbsp;• Create Vehicle Performance database  
 &nbsp;&nbsp;&nbsp;&nbsp;• Import cleaned dataset  
 
 
 
-## **Analytical Queries**
+**Analytical Queries**
 
-### **Basic Queries**
+**Basic Queries**
 
 &nbsp;&nbsp;&nbsp;&nbsp;• Total mileage & average efficiency per make  
 &nbsp;&nbsp;&nbsp;&nbsp;• Maintenance cost by vehicle type and age  
@@ -86,7 +87,7 @@ The project is structured into three phases:
 
 
 
-### **Advanced Queries (CTEs + Window Functions)**
+**Advanced Queries (CTEs + Window Functions)**
 
 &nbsp;&nbsp;&nbsp;&nbsp;• Ranking vehicles by efficiency  
 &nbsp;&nbsp;&nbsp;&nbsp;• Moving average of maintenance cost  
@@ -96,7 +97,7 @@ The project is structured into three phases:
 
 
 
-### **Comparative Analysis**
+**Comparative Analysis**
 
 &nbsp;&nbsp;&nbsp;&nbsp;• New vs old vehicle performance  
 &nbsp;&nbsp;&nbsp;&nbsp;• Vehicle type efficiency comparison  
@@ -106,7 +107,7 @@ The project is structured into three phases:
 
 # 📊 Phase 3 — Power BI Dashboard
 
-## **1. Executive Summary**
+**1. Executive Summary**
 
 &nbsp;&nbsp;&nbsp;&nbsp;• KPIs: Total Vehicles, Avg Fuel Efficiency, Total Mileage, Avg Maintenance Cost  
 &nbsp;&nbsp;&nbsp;&nbsp;• Vehicle distribution by type & make  
@@ -114,7 +115,7 @@ The project is structured into three phases:
 
 
 
-## **2. Performance Analysis**
+**2. Performance Analysis**
 
 &nbsp;&nbsp;&nbsp;&nbsp;• Scatter chart: Age vs Efficiency  
 &nbsp;&nbsp;&nbsp;&nbsp;• Bar chart: Avg Efficiency by Make  
@@ -123,7 +124,7 @@ The project is structured into three phases:
 
 
 
-## **3. Cost Analysis**
+**3. Cost Analysis**
 
 &nbsp;&nbsp;&nbsp;&nbsp;• Maintenance cost by vehicle type  
 &nbsp;&nbsp;&nbsp;&nbsp;• Cost-per-km insights  
@@ -139,7 +140,7 @@ The project is structured into three phases:
 <img width="1920" height="1080" alt="Screenshot (148)" src="https://github.com/user-attachments/assets/35887c85-30fc-4d2b-93e9-07bc2f5143b8" />
 <img width="1920" height="1080" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/e743b76c-1c9d-46fa-b66a-8d380fe53af0" />
 ________________________________________
-## 🎯 Expected Outcome
+🎯 Expected Outcome
 
 &nbsp;&nbsp;&nbsp;&nbsp;• A fully cleaned fleet dataset ready for analysis  
 
