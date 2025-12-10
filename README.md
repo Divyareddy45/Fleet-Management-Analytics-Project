@@ -27,94 +27,92 @@ The project is structured into three phases:
 • Power BI – Interactive dashboards & KPIs
  ________________________________________
  
-🧪 Phase 1 — Python (ETL & Data Analysis)
-
+**🧪 Phase 1 — Python (ETL & Data Analysis)**
 1. Import and Explore Data
 
    • Load vehicle dataset using pandas
 
    • Initial exploration and profiling
 
+🧪 Phase 1 — Python (ETL & Data Analysis)
+1. Import and Explore Data
+
+• Load vehicle dataset using pandas
+• Initial exploration and profiling
+
 2. Data Cleaning & Transformation
 
-   • Handle missing values and duplicates
-   
-   • Fix incorrect data types
-   
-   • Validate numerical ranges
-   
-   • Create calculated fields:
-   
-            • vehicle_age
+• Handle missing values and duplicates
+• Fix incorrect data types
+• Validate numerical ranges
+• Create calculated fields:
+    • vehicle_age
+    • cost_per_km
+    • monthly_mileage
+    • efficiency_category (High / Medium / Low)
 
-            • cost_per_km
+3. Data Analysis
 
-            • monthly_mileage
-
-            • efficiency_category (High / Medium / Low)
-
-4. Data Analysis
-
-      • Performance by vehicle make and model
-
-      • Relationship between age and fuel efficiency
-
-      • Maintenance cost trends by vehicle type
-
-      • Driver performance impact
+• Performance by vehicle make and model
+• Relationship between age and fuel efficiency
+• Maintenance cost trends by vehicle type
+• Driver performance impact
 
 4. Data Export
 
-      • Clean dataset exported for SQL
+• Clean dataset exported for SQL
+• Summary statistics saved for reporting
+________________________________________
  
-      • Summary statistics saved for reporting
-   
- ________________________________________
+
 **🗄️ Phase 2 — SQL (Vehicle Performance Analytics)**
 Database Setup
-    
-    • Create Vehicle Performance database
-    
-    • Import cleaned dataset
+
+• Create Vehicle Performance database
+• Import cleaned dataset
 
 Analytical Queries
-
 Basic Queries
-     
-     • Total mileage & average efficiency per make
-     
-     • Maintenance cost by vehicle type and age
-     
-     • Identify top-performing vehicles
+
+• Total mileage & average efficiency per make
+• Maintenance cost by vehicle type and age
+• Identify top-performing vehicles
 
 Advanced Queries (CTEs + Window Functions)
-     
-     • Ranking vehicles by efficiency
-     
-     • Moving average of maintenance cost
-     
-     • Above/below average performance detection
-     
-     • Efficiency degradation with age
-     
-     • Cost-to-mileage ratio comparison
+
+• Ranking vehicles by efficiency
+• Moving average of maintenance cost
+• Above/below average performance detection
+• Efficiency degradation with age
+• Cost-to-mileage ratio comparison
 
 Comparative Analysis
-    
-    • New vs old vehicle performance
 
-    • Vehicle type efficiency comparison
-   
-    • Manufacturer-based maintenance trends
+• New vs old vehicle performance
+• Vehicle type efficiency comparison
+• Manufacturer-based maintenance trends
 ________________________________________
+ 
 **📊 Phase 3 — Power BI Dashboard**
 1. Executive Summary
 
-       • KPIs: Total Vehicles, Avg Fuel Efficiency, Total Mileage, Avg Maintenance Cost
+• KPIs: Total Vehicles, Avg Fuel Efficiency, Total Mileage, Avg Maintenance Cost
+• Vehicle distribution by type & make
+• Age distribution chart
 
-       • Vehicle distribution by type & make
+2. Performance Analysis
 
-       • Age distribution chart
+• Scatter chart: Age vs Efficiency
+• Bar chart: Avg Efficiency by Make
+• Line chart: Maintenance Cost vs Mileage
+• Heat map: Performance Score Distribution
+
+3. Cost Analysis
+
+• Maintenance cost by vehicle type
+• Cost-per-km insights
+• Driver performance impact
+• Age vs maintenance cost trend
 
 3. Performance Analysis
 
