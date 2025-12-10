@@ -6,7 +6,6 @@ ________________________________________
 **📌 Project Overview**
 
 The goal is to extract meaningful insights around vehicle efficiency, maintenance cost trends, driver performance, and overall operational health of the fleet.
-
 This project delivers a comprehensive analysis of vehicle fleet data by progressing through three major phases:
 
 1.Python (ETL & Data Preparation) – cleaning, transforming, and analyzing raw fleet data
@@ -25,8 +24,8 @@ ________________________________________
 **🧪 Phase 1 — Python (ETL & Data Analysis)**
 **1️⃣ Data Import & Exploration**
     
-     Load dataset using pandas
-     Generate initial profiling and descriptive statistics
+Load dataset using pandas
+Generate initial profiling and descriptive statistics
 
 **2️⃣ Data Cleaning & Transformation**
 
@@ -84,6 +83,7 @@ ________________________________________
 **Dashboard Pages**
 
 **1. Executive Summary Page**
+
    KPI Cards: Total Vehicles, Average Efficiency, Total Mileage, Avg Maintenance Cost
    Vehicle distribution by type and make
    Age distribution chart
@@ -97,8 +97,9 @@ ________________________________________
     Bar chart: Avg Efficiency by Make
     Line chart: Maintenance Cost vs Mileage
     Heat map: Performance Score Distribution
+    
 
-    <img width="1202" height="737" alt="Fleet manamgement power bi2" src="https://github.com/user-attachments/assets/612b39e6-68d8-413e-89c2-4612a42a7cad" />
+<img width="1202" height="737" alt="Fleet manamgement power bi2" src="https://github.com/user-attachments/assets/612b39e6-68d8-413e-89c2-4612a42a7cad" />
 
 ________________________________________
 **3️. Cost Analysis**
@@ -108,7 +109,7 @@ ________________________________________
     Driver performance impact
     Age vs maintenance cost trend
 
-    <img width="1200" height="755" alt="Fleet manamgement power bi3" src="https://github.com/user-attachments/assets/4499807b-8a7d-45f6-857f-8798081db185" />
+<img width="1200" height="755" alt="Fleet manamgement power bi3" src="https://github.com/user-attachments/assets/4499807b-8a7d-45f6-857f-8798081db185" />
 
 ________________________________________
 **🎯 Expected Outcome**
