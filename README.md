@@ -3,7 +3,6 @@
 A complete end-to-end data analytics project using Python, SQL, and Power BI to analyze fleet vehicle performance, maintenance patterns, and operational efficiency.
 ________________________________________
 
-
 **📌 Project Overview**
 
 The objective of this project is to extract meaningful insights about:
