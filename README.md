@@ -43,10 +43,11 @@ The project is structured into three phases:
    • Validate numerical ranges
    
    • Create calculated fields:
-      • vehicle_age
-      • cost_per_km
-      • monthly_mileage
-      • efficiency_category (High / Medium / Low)
+      ○ vehicle_age  
+      ○ cost_per_km  
+      ○ monthly_mileage  
+      ○ efficiency_category (High / Medium / Low)
+
 
 **4. Data Analysis**
 
@@ -114,23 +115,23 @@ ________________________________________
 
 **2. Performance Analysis**
 
-      • Scatter chart: Age vs Efficiency
+   • Scatter chart: Age vs Efficiency
 
-      • Bar chart: Avg Efficiency by Make
+   • Bar chart: Avg Efficiency by Make
 
-      • Line chart: Maintenance Cost vs Mileage
+   • Line chart: Maintenance Cost vs Mileage
 
-      • Heat map: Performance Score Distribution
+   • Heat map: Performance Score Distribution
 
 **3. Cost Analysis**
 
-    • Maintenance cost by vehicle type
+   • Maintenance cost by vehicle type
 
-    • Cost-per-km insights
+   • Cost-per-km insights
 
-    • Driver performance impact
+   • Driver performance impact
 
-    • Age vs maintenance cost trend
+   • Age vs maintenance cost trend
 
 
 <img width="1920" height="1080" alt="Screenshot (149)" src="https://github.com/user-attachments/assets/22bad8bb-58eb-41ed-b260-95a4b9968ce6" />
