@@ -22,44 +22,40 @@ SQL: MySQL workbench for analytical queries
 Power BI: Interactive dashboards and KPIs
 ________________________________________
 **🧪 Phase 1 — Python (ETL & Data Analysis)**
-**1️⃣ Data Import & Exploration**
-    
-Load dataset using pandas
-Generate initial profiling and descriptive statistics
 
-**2️⃣ Data Cleaning & Transformation**
+**1.Import and Explore Data**
+     Load vehicle dataset using pandas
+     Initial exploration and profiling
 
-Key cleaning steps:
-       Handling missing values & duplicates
-       Fixing incorrect data types
-       Validating ranges (fuel efficiency, mileage, etc.)
-Creating calculated fields:
-      Vehicle Age (years/months)
-      Cost per km = annual_maintenance_cost / current_mileage_km
-      Monthly mileage
-Efficiency category: 
-       High / Medium / Low (based on fuel efficiency)
+**2️. Data Cleaning & Transformation**
+
+     Handle missing values and duplicates
+     Fix data types and validate ranges
+     Calculated columns:
+         vehicle_age (from purchase date and year)
+         cost_per_km = annual_maintenance_cost / current_mileage_km
+         monthly_mileage = current_mileage_km / vehicle_age_months
+         efficiency_category (High/Medium/Low based on fuel_efficiency_km_l)
       
-**3️⃣ Data Analysis**
+**3️. Data Analysis**
 
-Insights generated:
       Performance by vehicle make and model
       Relationship between age and fuel efficiency
       Maintenance cost trends by vehicle type
       Driver performance impact on operations
 
-**4️⃣ Data Export**
+**4️. Data Export**
 
-Clean dataset exported for SQL
-Summary statistics saved for reporting
+   Clean dataset exported for SQL
+   Summary statistics saved for reporting
 
 ________________________________________
 **🗄️ Phase 2 — SQL (Vehicle Performance Analytics)**
 **📂 Database Setup**
+       Create a Vehicle Performance database
+       Import cleaned fleet dataset
 
-Create a Vehicle Performance database
-Import cleaned fleet dataset
-🧩 Analytical Queries
+**Analytical Queries**
 
 **Basic Queries:**
      Total mileage & average efficiency per make
@@ -72,8 +68,7 @@ Import cleaned fleet dataset
      Identify above/below average performers
      Analyze efficiency degradation with age
      Compare cost-to-mileage ratios
-     Fleet Management Analytics Proj…
-
+  
 **Comparative Analysis:**
     New vs old vehicle performance
     Vehicle type efficiency comparison
@@ -83,20 +78,22 @@ ________________________________________
 **Dashboard Pages**
 
 **1. Executive Summary Page**
-
-   KPI Cards: Total Vehicles, Average Efficiency, Total Mileage, Avg Maintenance Cost
-   Vehicle distribution by type and make
-   Age distribution chart
+      KPI Cards: Total Vehicles, 
+                Average Efficiency, 
+                Total Mileage, 
+                Avg Maintenance Cost
+     Vehicle distribution by type and make
+     Age distribution chart
    
    <img width="1210" height="745" alt="Fleet manamgement power bi1" src="https://github.com/user-attachments/assets/62e7458c-f676-4d97-9392-05dc95532678" />
 
 ________________________________________
 **2️. Performance Analysis**
     
-    Scatter chart: Age vs Efficiency
-    Bar chart: Avg Efficiency by Make
-    Line chart: Maintenance Cost vs Mileage
-    Heat map: Performance Score Distribution
+  Scatter chart: Age vs Efficiency
+  Bar chart: Avg Efficiency by Make
+  Line chart: Maintenance Cost vs Mileage
+  Heat map: Performance Score Distribution
     
 
 <img width="1202" height="737" alt="Fleet manamgement power bi2" src="https://github.com/user-attachments/assets/612b39e6-68d8-413e-89c2-4612a42a7cad" />
