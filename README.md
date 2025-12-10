@@ -28,9 +28,11 @@ The project is structured into three phases:
  ________________________________________
  
 🧪 Phase 1 — Python (ETL & Data Analysis)
+
 1. Import and Explore Data
 
 • Load vehicle dataset using pandas
+
 • Initial exploration and profiling
 
 2. Data Cleaning & Transformation
