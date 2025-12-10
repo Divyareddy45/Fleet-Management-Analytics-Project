@@ -27,35 +27,34 @@ The project is structured into three phases:
 • Power BI – Interactive dashboards & KPIs
  ________________________________________
  
-**🧪 Phase 1 — Python (ETL & Data Analysis)**
-
+🧪 Phase 1 — Python (ETL & Data Analysis)
 1. Import and Explore Data
- 
-  • Load vehicle dataset using pandas
-  • Initial exploration and profiling
 
-3. Data Cleaning & Transformation
+• Load vehicle dataset using pandas
+• Initial exploration and profiling
 
-   • Handle missing values and duplicates
-   • Fix incorrect data types
-   • Validate numerical ranges
-   • Create calculated fields:
-   • vehicle_age
-   • cost_per_km
-   • monthly_mileage
-   • efficiency_category (High / Medium / Low)
+2. Data Cleaning & Transformation
 
-5. Data Analysis
+• Handle missing values and duplicates
+• Fix incorrect data types
+• Validate numerical ranges
+• Create calculated fields:
+    • vehicle_age
+    • cost_per_km
+    • monthly_mileage
+    • efficiency_category (High / Medium / Low)
 
-      • Performance by vehicle make and model
-      • Relationship between age and fuel efficiency
-      • Maintenance cost trends by vehicle type
-      • Driver performance impact
+3. Data Analysis
 
-7. Data Export
+• Performance by vehicle make and model
+• Relationship between age and fuel efficiency
+• Maintenance cost trends by vehicle type
+• Driver performance impact
 
-   • Clean dataset exported for SQL
-   • Summary statistics saved for reporting
+4. Data Export
+
+• Clean dataset exported for SQL
+• Summary statistics saved for reporting
    
  ________________________________________
 **🗄️ Phase 2 — SQL (Vehicle Performance Analytics)**
