@@ -3,20 +3,21 @@
 A complete end-to-end data analytics project using Python, SQL, and Power BI to analyze fleet vehicle performance, maintenance patterns, and operational efficiency.
 ________________________________________
 
-**📌 Project Overview**
+## 📌 Project Overview
 
 The goal of this project is to extract meaningful insights related to:
 
-    • Vehicle efficiency and fuel performance
-    • Maintenance cost patterns
-    • Vehicle age vs. performance trends
-    • Driver performance impact
+• Vehicle efficiency and fuel performance  
+• Maintenance cost patterns  
+• Vehicle age vs. performance trends  
+• Driver performance impact  
 
 The project is structured into three phases:
 
-   • Python ETL & data preparation
-   • SQL-based performance and cost analytics
-   • Power BI dashboard visualization
+• Python ETL & data preparation  
+• SQL-based performance and cost analytics  
+• Power BI dashboard visualization  
+
  ________________________________________
 
 **🛠️ Tools & Technologies**
