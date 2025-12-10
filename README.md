@@ -1,6 +1,8 @@
 **🚚 Fleet Management Analytics Project**
 
 A complete end-to-end data analytics project using Python, SQL, and Power BI to analyze fleet vehicle performance, maintenance patterns, and operational efficiency.
+________________________________________
+
 
 **📌 Project Overview**
 
@@ -22,6 +24,9 @@ SQL (Advanced Analytics) – performing performance, cost, and maintenance analy
 
 Power BI (Dashboard Reporting) – building interactive dashboards and executive summaries
 
+________________________________________
+
+
 🛠️ Tools & Technologies
 
 Python: pandas, NumPy, matplotlib, seaborn
@@ -29,6 +34,9 @@ Python: pandas, NumPy, matplotlib, seaborn
 SQL: MySQL Workbench for analytical queries
 
 Power BI: Interactive dashboards and KPI visuals
+
+________________________________________
+
 
 **🧪 Phase 1 — Python (ETL & Data Analysis)**
 1. Import and Explore Data
@@ -69,6 +77,9 @@ Clean dataset exported for SQL processing
 
 Summary statistics generated for reporting
 
+________________________________________
+
+
 **🗄️ Phase 2 — SQL (Vehicle Performance Analytics)**
 📂 Database Setup
 
@@ -105,6 +116,9 @@ New vs old vehicle performance
 Vehicle type efficiency analysis
 
 Manufacturer-based maintenance cost patterns
+
+________________________________________
+
 
 **📊 Phase 3 — Power BI Dashboard**
 1. Executive Summary Page
@@ -153,6 +167,7 @@ Age vs maintenance cost trend
 
 <img width="1200" height="755" alt="Fleet manamgement power bi3" src="https://github.com/user-attachments/assets/32c1bcbb-5128-4a55-bfc8-acc231461b99" />
 
+________________________________________
 
 
 **🎯 Expected Outcome**
