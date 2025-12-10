@@ -30,19 +30,19 @@ The project is structured into three phases:
 
 1. Import and Explore Data
  
-       • Load vehicle dataset using pandas
-       • Initial exploration and profiling
+  • Load vehicle dataset using pandas
+  • Initial exploration and profiling
 
 3. Data Cleaning & Transformation
 
-       • Handle missing values and duplicates
-       • Fix incorrect data types
-       • Validate numerical ranges
-       • Create calculated fields:
-       • vehicle_age
-       • cost_per_km
-       • monthly_mileage
-       • efficiency_category (High / Medium / Low)
+   • Handle missing values and duplicates
+   • Fix incorrect data types
+   • Validate numerical ranges
+   • Create calculated fields:
+   • vehicle_age
+   • cost_per_km
+   • monthly_mileage
+   • efficiency_category (High / Medium / Low)
 
 5. Data Analysis
 
