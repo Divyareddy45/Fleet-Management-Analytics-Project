@@ -36,22 +36,20 @@ The project is structured into three phases:
 &nbsp;&nbsp;&nbsp;&nbsp;• Load vehicle dataset using pandas  
 &nbsp;&nbsp;&nbsp;&nbsp;• Initial exploration and profiling  
 
----
+
 
 ## **2. Data Cleaning & Transformation**
 
 &nbsp;&nbsp;&nbsp;&nbsp;• Handle missing values and duplicates  
 &nbsp;&nbsp;&nbsp;&nbsp;• Fix incorrect data types  
 &nbsp;&nbsp;&nbsp;&nbsp;• Validate numerical ranges  
-
-### **Calculated Fields**
-
+&nbsp;&nbsp;&nbsp;&nbsp;• Calculated Field
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○ vehicle_age  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○ cost_per_km  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○ monthly_mileage  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○ efficiency_category (High / Medium / Low)  
 
----
+
 
 ## **3. Data Analysis**
 
@@ -60,7 +58,7 @@ The project is structured into three phases:
 &nbsp;&nbsp;&nbsp;&nbsp;• Maintenance cost trends by vehicle type  
 &nbsp;&nbsp;&nbsp;&nbsp;• Driver performance impact  
 
----
+
 
 ## **4. Data Export**
 
@@ -76,7 +74,7 @@ The project is structured into three phases:
 &nbsp;&nbsp;&nbsp;&nbsp;• Create Vehicle Performance database  
 &nbsp;&nbsp;&nbsp;&nbsp;• Import cleaned dataset  
 
----
+
 
 ## **Analytical Queries**
 
@@ -86,7 +84,7 @@ The project is structured into three phases:
 &nbsp;&nbsp;&nbsp;&nbsp;• Maintenance cost by vehicle type and age  
 &nbsp;&nbsp;&nbsp;&nbsp;• Identify top-performing vehicles  
 
----
+
 
 ### **Advanced Queries (CTEs + Window Functions)**
 
@@ -96,7 +94,7 @@ The project is structured into three phases:
 &nbsp;&nbsp;&nbsp;&nbsp;• Efficiency degradation with age  
 &nbsp;&nbsp;&nbsp;&nbsp;• Cost-to-mileage ratio comparison  
 
----
+
 
 ### **Comparative Analysis**
 
@@ -114,7 +112,7 @@ The project is structured into three phases:
 &nbsp;&nbsp;&nbsp;&nbsp;• Vehicle distribution by type & make  
 &nbsp;&nbsp;&nbsp;&nbsp;• Age distribution chart  
 
----
+
 
 ## **2. Performance Analysis**
 
@@ -123,7 +121,7 @@ The project is structured into three phases:
 &nbsp;&nbsp;&nbsp;&nbsp;• Line chart: Maintenance Cost vs Mileage  
 &nbsp;&nbsp;&nbsp;&nbsp;• Heat map: Performance Score Distribution  
 
----
+
 
 ## **3. Cost Analysis**
 
@@ -132,7 +130,7 @@ The project is structured into three phases:
 &nbsp;&nbsp;&nbsp;&nbsp;• Driver performance impact  
 &nbsp;&nbsp;&nbsp;&nbsp;• Age vs maintenance cost trend  
 
----
+
 
 
 
@@ -141,17 +139,17 @@ The project is structured into three phases:
 <img width="1920" height="1080" alt="Screenshot (148)" src="https://github.com/user-attachments/assets/35887c85-30fc-4d2b-93e9-07bc2f5143b8" />
 <img width="1920" height="1080" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/e743b76c-1c9d-46fa-b66a-8d380fe53af0" />
 ________________________________________
-**🎯 Expected Outcome**
+## 🎯 Expected Outcome
 
-    • A fully cleaned fleet dataset ready for analysis
- 
-    • Clear insights on vehicle performance, efficiency, and cost trends
+&nbsp;&nbsp;&nbsp;&nbsp;• A fully cleaned fleet dataset ready for analysis  
 
-    • SQL-driven analytics for ranking, comparison, and trend evaluation
+&nbsp;&nbsp;&nbsp;&nbsp;• Clear insights on vehicle performance, efficiency, and cost trends  
 
-    • Interactive Power BI dashboards presenting key metrics and visuals
- 
-    • End-to-end experience in ETL, analytics, SQL, and BI reporting
+&nbsp;&nbsp;&nbsp;&nbsp;• SQL-driven analytics for ranking, comparison, and trend evaluation  
+
+&nbsp;&nbsp;&nbsp;&nbsp;• Interactive Power BI dashboards presenting key metrics and visuals  
+
+&nbsp;&nbsp;&nbsp;&nbsp;• End-to-end experience in ETL, analytics, SQL, and BI reporting  
 
 
 
