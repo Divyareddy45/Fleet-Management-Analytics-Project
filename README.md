@@ -37,24 +37,31 @@ The project is structured into three phases:
 2. Data Cleaning & Transformation
 
    • Handle missing values and duplicates
+   
    • Fix incorrect data types
+   
    • Validate numerical ranges
+   
    • Create calculated fields:
       • vehicle_age
       • cost_per_km
       • monthly_mileage
       • efficiency_category (High / Medium / Low)
 
-3. Data Analysis
+4. Data Analysis
 
    • Performance by vehicle make and model
+   
    • Relationship between age and fuel efficiency
+   
    • Maintenance cost trends by vehicle type
+   
    • Driver performance impact
 
-4. Data Export
+6. Data Export
 
    • Clean dataset exported for SQL
+   
    • Summary statistics saved for reporting
 ________________________________________
  
