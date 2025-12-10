@@ -139,7 +139,9 @@ The project is structured into three phases:
 <img width="1920" height="1080" alt="Screenshot (149)" src="https://github.com/user-attachments/assets/22bad8bb-58eb-41ed-b260-95a4b9968ce6" />
 <img width="1920" height="1080" alt="Screenshot (148)" src="https://github.com/user-attachments/assets/35887c85-30fc-4d2b-93e9-07bc2f5143b8" />
 <img width="1920" height="1080" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/e743b76c-1c9d-46fa-b66a-8d380fe53af0" />
-________________________________________
+
+---
+
 🎯 Expected Outcome
 
 &nbsp;&nbsp;&nbsp;&nbsp;• A fully cleaned fleet dataset ready for analysis  
